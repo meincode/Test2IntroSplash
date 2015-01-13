@@ -42,7 +42,7 @@ public class IntroSplashActivity extends Activity {
 					// 두번째 화면
 					splashSceneNumber = 1;
 
-					Drawable bg = getResources().getDrawable(R.drawable.bg_sunset);
+					Drawable bg = getResources().getDrawable(R.drawable.kakao_bg_01);
 					
 					if(bg==null){
 						splashLayout.setBackgroundColor(Color.rgb(255,255,255));
